@@ -1,9 +1,8 @@
 # PawMart – Pet Adoption & Supplies Platform
 
 ## Live Links
-**Client Live Website:** https://your-live-client-site-url.vercel.app  
-**Server Live API:** https://your-live-server-url.vercel.app  
-
+**Client Live Website:** https://pet-care-auth-project.web.app  
+ 
 ---
 
 ## About PawMart
