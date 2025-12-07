@@ -19,7 +19,6 @@ const ServiceDetails = () => {
       .catch((err) => console.log(err));
   }, [id]);
 
-
   const handleOrder = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -80,97 +79,76 @@ const ServiceDetails = () => {
         >
           Adapt/Order
         </button>
-<dialog id="my_modal_3" className="modal">
-  <div className="modal-box">
-    <form method="dialog">
-      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-        ✕
-      </button>
-    </form>
+        <dialog id="my_modal_3" className="modal">
+          <div className="modal-box">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
 
-    <form
-      onSubmit={handleOrder}
-      className="fieldset bg-base-200 border-base-300 rounded-box w-full border p-4"
-    >
-      {/* Legend with gradient text */}
-      <legend className="fieldset-legend text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-purple-500 to-pink-500">
-        Order details
-      </legend>
+            <form
+              onSubmit={handleOrder}
+              className="fieldset bg-base-200 border-base-300 rounded-box w-full border p-4"
+            >
+              {/* Legend with gradient text */}
+              <legend className="fieldset-legend text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-purple-500 to-pink-500">
+                Order details
+              </legend>
 
-      <label className="label">Product Name</label>
-      <input
-        name="productName"
-        readOnly
-        defaultValue={service?.name}
-        type="text"
-        className="input"
-      />
+              <label className="label">Product Name</label>
+              <input
+                name="productName"
+                readOnly
+                defaultValue={service?.name}
+                type="text"
+                className="input"
+              />
 
-      <label className="label">Buyer Name</label>
-      <input
-        name="buyerName"
-        defaultValue={user?.displayName}
-        type="text"
-        className="input"
-      />
+              <label className="label">Buyer Name</label>
+              <input
+                name="buyerName"
+                defaultValue={user?.displayName}
+                type="text"
+                className="input"
+              />
 
-      <label className="label">Buyer Email</label>
-      <input
-        name="buyerEmail"
-        readOnly
-        defaultValue={user?.email}
-        type="email"
-        className="input"
-      />
+              <label className="label">Buyer Email</label>
+              <input
+                name="buyerEmail"
+                readOnly
+                defaultValue={user?.email}
+                type="email"
+                className="input"
+              />
 
-      <label className="label">Quantity</label>
-      <input
-        required
-        name="quantity"
-        type="number"
-        className="input"
-      />
+              <label className="label">Quantity</label>
+              <input required name="quantity" type="number" className="input" />
 
-      <label className="label">Price</label>
-      <input
-        name="price"
-        readOnly
-        defaultValue={service?.price}
-        type="number"
-        className="input"
-      />
+              <label className="label">Price</label>
+              <input
+                name="price"
+                readOnly
+                defaultValue={service?.price}
+                type="number"
+                className="input"
+              />
 
-      <label className="label">Address</label>
-      <input
-        required
-        name="address"
-        type="text"
-        className="input"
-      />
+              <label className="label">Address</label>
+              <input required name="address" type="text" className="input" />
 
-      <label className="label">Phone</label>
-      <input
-        required
-        name="phone"
-        type="text"
-        className="input"
-      />
+              <label className="label">Phone</label>
+              <input required name="phone" type="text" className="input" />
 
-      <label className="label">Additional Note</label>
-      <textarea
-        name="note"
-        className="textarea"
-      />
+              <label className="label">Additional Note</label>
+              <textarea name="note" className="textarea" />
 
-      <button className="btn btn-primary mt-3" type="submit">
-        Order
-      </button>
-    </form>
-  </div>
-</dialog>
-
-
-
+              <button className="btn btn-primary mt-3" type="submit">
+                Order
+              </button>
+            </form>
+          </div>
+        </dialog>
       </div>
     </div>
   );
