@@ -14,14 +14,16 @@ const UpdateService = () => {
 
   const { user } = useContext(AuthContext);
 
- useEffect(() => {
-    axios.get(`https://pawmart-backend-10.vercel.app/services/${id}`).then((res) => {
-      setService(res.data);
-      
-      setCategory(res.data.category);
-      setPrice(res.data.price);
-      setDate(res.data.date);
-    });
+  useEffect(() => {
+    axios
+      .get(`https://pawmart-backend-10.vercel.app/services/${id}`)
+      .then((res) => {
+        setService(res.data);
+
+        setCategory(res.data.category);
+        setPrice(res.data.price);
+        setDate(res.data.date);
+      });
   }, [id]);
 
   console.log(service);
@@ -62,13 +64,11 @@ const UpdateService = () => {
     axios
       .put(`https://pawmart-backend-10.vercel.app/update/${id}`, formData)
       .then((res) => {
-        navigate('/my-services')
+        navigate("/my-services");
         console.log(res.data);
       })
       .catch((err) => console.log(err));
   };
-
- 
 
   if (!service) {
     return (
