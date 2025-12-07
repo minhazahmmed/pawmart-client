@@ -17,6 +17,7 @@ const UpdateService = () => {
  useEffect(() => {
     axios.get(`https://pawmart-backend-10.vercel.app/services/${id}`).then((res) => {
       setService(res.data);
+      
       setCategory(res.data.category);
       setPrice(res.data.price);
       setDate(res.data.date);
