@@ -9,12 +9,11 @@ const Footer = () => {
       <aside>
         <div className="flex items-center gap-3">
           <FaPaw className="text-4xl text-purple-600" />
-          <h2 className="text-2xl font-bold text-purple-700">PetCare Hub</h2>
+          <h2 className="text-2xl font-bold text-purple-700">Paw Mart</h2>
         </div>
 
         <p className="text-gray-600 leading-6 mt-2 max-w-xs">
-          Your trusted partner for winter pet care, grooming, health tips and
-          professional pet services. Because your pet deserves the best!
+          Connecting loving pets with caring owners and providing essential products and services for their health and happiness.
         </p>
 
         <div className="flex items-center gap-3 mt-4">
@@ -24,7 +23,7 @@ const Footer = () => {
 
         <div className="flex items-center gap-3 mt-1">
           <FaEnvelope className="text-purple-600" />
-          <p className="text-gray-700 font-medium">support@petcarehub.com</p>
+          <p className="text-gray-700 font-medium">support@pawmart.com</p>
         </div>
 
         {/* Social Icons */}
