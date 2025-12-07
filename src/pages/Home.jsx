@@ -11,8 +11,9 @@ const Home = () => {
             <title>Home</title>
            <Slider/>
            <PopularSection/>
-           
+
            <WhyAdopt/>
+           
            <PetHeroes/>
         </div>
     );
