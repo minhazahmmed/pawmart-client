@@ -87,7 +87,6 @@ const Navbar = () => {
 
           <Link
             to={"/"}
-            
             className="font-semibold text-xl md:text-2xl text-purple-600 flex items-center gap-1"
           >
             <FaPaw className="text-xl md:text-2xl" />
