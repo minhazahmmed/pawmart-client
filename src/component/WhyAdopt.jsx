@@ -8,6 +8,7 @@ const WhyAdopt = () => {
       <h2 className="text-2xl md:text-3xl font-extrabold mb-4 text-black">
         Why Adopt from PawMart?
       </h2>
+      
       <p className="text-black text-sm md:text-lg max-w-2xl mx-auto">
         Every pet deserves a loving home! By adopting instead of buying, you rescue
         a life, support animal shelters, and help reduce stray populations. Join
