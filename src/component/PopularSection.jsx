@@ -13,7 +13,8 @@ const PopularSection = () => {
         <span className="loading loading-bars loading-xl"></span>
       </div>
     );
-
+    
+    
   return (
     <div className=" my-10 max-w-[1200px] mx-auto">
       <h1 className="text-2xl md:text-3xl font-bold my-4 text-center">
