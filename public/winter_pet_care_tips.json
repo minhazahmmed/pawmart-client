@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Keep Pets Warm",
+    "detail": "Use sweaters, jackets, and warm bedding to protect your pet from cold weather.",
+    "icon": "🧥"
+  },
+  {
+    "id": 2,
+    "title": "Moisturize Paws",
+    "detail": "Apply pet-safe paw balm to prevent cracks during winter.",
+    "icon": "🐾"
+  },
+  {
+    "id": 3,
+    "title": "Limit Outdoor Time",
+    "detail": "Avoid long exposure to cold wind, snow, or icy surfaces.",
+    "icon": "❄️"
+  },
+  {
+    "id": 4,
+    "title": "Provide Warm Meals",
+    "detail": "Slightly warm food and fresh water help maintain body temperature.",
+    "icon": "🍲"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emma Collins",
+    "specialty": "Pet Nutrition Specialist",
+    "experience": "7 years experience",
+    "image": "https://i.ibb.co.com/tMb0tZ1w/doctor1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ryan Foster",
+    "specialty": "Canine Health Expert",
+    "experience": "10 years experience",
+    "image": "https://i.ibb.co.com/hxyQ4VNb/doctor2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sophia Turner",
+    "specialty": "Feline Behavior Consultant",
+    "experience": "6 years experience",
+    "image": "https://i.ibb.co.com/2YjttNPX/doctor3.webp"
+  }
+]
+
+
+
+

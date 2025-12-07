@@ -1,0 +1,163 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co.com/jvVh2BR2/service1.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co.com/bgGKBQdt/service2.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Pet Nail Trimming & Paw Cleanup",
+    "providerName": "HappyPaws Clinic",
+    "providerEmail": "contact@happypaws.com",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Safe and quick nail trimming with gentle paw cleaning for all pet types.",
+    "image": "https://i.ibb.co.com/wF18RJ2s/service3.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Pet Winter Photography",
+    "providerName": "SnowyTails Studio",
+    "providerEmail": "studio@snowytails.com",
+    "price": 40,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Professional outdoor snowy-themed photoshoot for your furry friend.",
+    "image": "https://i.ibb.co.com/m5ykNnH8/service4.jpg",
+    "category": "Photography"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Pet Winter Health Checkup",
+    "providerName": "CareVet Hospital",
+    "providerEmail": "support@carevet.com",
+    "price": 35,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Seasonal health checkup including cold-weather illness screening and immunity advice.",
+    "image": "https://i.ibb.co.com/ZRT9dm6R/service5.jpg",
+    "category": "Healthcare"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Cat Winter Blanket Customization",
+    "providerName": "CozyCat Creations",
+    "providerEmail": "create@cozycat.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 4,
+    "description": "Handmade soft blankets customized to your cat’s size and color preference.",
+    "image": "https://i.ibb.co.com/TxvwTc13/service6.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Dog Walking (Winter Special)",
+    "providerName": "FrostWalk Services",
+    "providerEmail": "walk@frostwalk.com",
+    "price": 18,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Gentle winter walk service with protective paw boots for dogs.",
+    "image": "https://i.ibb.co.com/cKr8HJZ1/service7.jpg",
+    "category": "Outdoor"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Pet Hot Meal Delivery",
+    "providerName": "WarmBite Kitchen",
+    "providerEmail": "order@warmbite.com",
+    "price": 12,
+    "rating": 4.7,
+    "slotsAvailable": 10,
+    "description": "Freshly-cooked, vet-approved warm meals delivered to your doorstep.",
+    "image": "https://i.ibb.co.com/kg5XL2ZB/service8.jpg",
+    "category": "Food"
+  },
+  {
+    "serviceId": 9,
+    "serviceName": "Pet Sweater Knitting Service",
+    "providerName": "KnittedPaws House",
+    "providerEmail": "knit@knittedpaws.com",
+    "price": 28,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Hand-knitted sweaters available in different designs and wool types.",
+    "image": "https://i.ibb.co.com/1Wpyk6x/service9.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 10,
+    "serviceName": "Winter Pet Spa Treatment",
+    "providerName": "RoyalPet Spa",
+    "providerEmail": "spa@royalpet.com",
+    "price": 32,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Relaxing warm bath, coat conditioning, and aromatherapy for pets.",
+    "image": "https://i.ibb.co.com/BHsvBFfX/service10.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 11,
+    "serviceName": "Pet Snow Boots Fitting",
+    "providerName": "SnowGrip Pet Gear",
+    "providerEmail": "gear@snowgrip.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Comfortable anti-slip winter boot fitting service for dogs and cats.",
+    "image": "https://i.ibb.co.com/7x950TvN/service11.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 12,
+    "serviceName": "Pet Winter Safety Training",
+    "providerName": "SafePaws Academy",
+    "providerEmail": "academy@safepaws.com",
+    "price": 45,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Teach your pets how to stay safe and avoid hazards during cold weather.",
+    "image": "https://i.ibb.co.com/7dDqzkBn/service12.jpg",
+    "category": "Training"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
