@@ -14,7 +14,7 @@ const UpdateService = () => {
 
   const { user } = useContext(AuthContext);
 
-  // -------- GET SERVICE BY ID ---------
+
   useEffect(() => {
     axios.get(`https://pawmart-backend-10.vercel.app/services/${id}`).then((res) => {
       setService(res.data);
